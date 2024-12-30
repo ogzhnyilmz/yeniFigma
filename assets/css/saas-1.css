@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #212121;
+}
+
+
+.container {
+    width: 1440px;
+    margin-inline: auto;
+}
+
+.header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding-block: 32px;
+    align-items: center;
+    margin-bottom: 130px
+}
+
+.company-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.profile-section h3 {
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+}
+
+.profile-menu {
+    display: flex;
+    gap: 55px;
+}
+
+.hero {
+    display: flex;
+    height: 549px;
+    background-image: url('/assets/img/Illustration.png');
+    background-repeat: no-repeat;
+    background-position: 720px;
+    margin-bottom: 162px;
+
+}
+
+.hero-text {
+    padding-left: 165px;
+    padding-top: 50px;
+}
+
+.hero h2 {
+    width: 540px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.699999988079071px;
+    text-align: left;
+}
+
+.hero p {
+    width: 540px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 29px;
+}
+
+.logos h2 {
+    color: #807E7E;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 165px;
+    margin-bottom: 24px;
+}
+
+.logos img {
+    padding-left: 165px;
+    margin-bottom: 176px;
+}
+
+
+.compete h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-left: 165px;
+}
+
+.compete h3 {
+    width: 665px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    padding-left: 165px;
+    margin-bottom: 72px;
+}
+
+.compete img {
+    padding-left: 165px;
+    margin-bottom: 240px;
+}
+
+.integrations {
+    height: 514px;
+    background-image: url('/assets/img/watch.png');
+    background-repeat: no-repeat;
+    background-position: 750px;
+    margin-bottom: 240px;
+}
+
+.int-text {
+    padding-top: 100px;
+}
+
+.integrations h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 165px;
+    margin-bottom: 16px;
+}
+
+.integrations h3 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    padding-left: 165px;
+    margin-bottom: 24px;
+}
+
+.integrations p {
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 165px;
+    margin-bottom: 40px;
+}
+
+.integrations a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 165px;
+}
+
+.interface h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.interface h3 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.interface img {
+    margin-inline: 160px;
+    margin-bottom: 240px;
+}
+
+
+.pricing h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pricing h3 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.subs {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.personal {
+    background-color: black;
+    width: 354px;
+    height: 388px;
+}
+
+.agency {
+    background-color: black;
+    width: 354px;
+    height: 388px;
+}
+
+
+.corporate {
+    background-color: black;
+    width: 354px;
+    height: 388px;
+}
+
+
+.subs h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+
+.subs p {
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subs h3 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.699999988079071px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.subs a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 72px;
+    background-color: #DC3545;
+    margin-inline: 60px;
+}

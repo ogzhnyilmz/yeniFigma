@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #ffffff;
+}
+
+
+.container {
+    width: 1440px;
+    margin-inline: auto;
+}
+
+.header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding-block: 32px;
+    align-items: center;
+
+}
+
+.company-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.profile-section h3 {
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+}
+
+.profile-menu {
+    display: flex;
+    gap: 55px;
+}
+
+.hero {
+    width: 1440px;
+    height: 660px;
+    background-image: url('/assets/img/Iphone.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.left {
+    position: relative;
+    top: 270px;
+    margin-left: 30px;
+}
+
+
+.text {
+    width: 541px;
+    height: 236px;
+    background-color: #ffffff;
+    position: relative;
+    top: 320px;
+    margin-left: 165px;
+
+}
+
+.text h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    padding-top: 48px;
+    padding-left: 48px;
+    margin-bottom: 16px;
+}
+
+.user {
+    display: flex;
+    padding-left: 48px;
+}
+
+.user h3 {
+    color: #52647C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.right {
+    position: relative;
+    bottom: 300px;
+    margin-left: 1180px;
+}
+
+.featuredh2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    padding-top: 150px;
+    margin-left: 165px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 24px;
+    margin-left: 165px;
+}
+
+.user2 {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.article h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.article h4 {
+    color: #52647C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 15px;
+}
+
+.article p {
+    color: #52647C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 146px;
+}
+
+.featured a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0D6EFD;
+    margin-left: 230px;
+    position: relative;
+    top: 270px;
+    padding: 8px 30px;
+    border-radius: 3px;
+}
+
+.featured h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: left;
+    position: relative;
+    top: 290px;
+    margin-left: 230px;
+}
+
+.featured img {
+    margin-left: 165px;
+    margin-bottom: 136px;
+}
+
+.featured-user {
+    display: flex;
+}
+
+.featured-user img {
+    position: relative;
+    top: 300px;
+    margin-left: 230px;
+}
+
+.featured-user h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    top: 300px;
+}
+
+.feat-articles {
+    margin-left: 165px;
+}
+
+.feat-articles h2 {
+    margin-bottom: 80px;
+}
+
+.feats {
+    display: flex;
+    flex-direction: column;
+}
+
+.feat-text {
+    position: relative;
+    left: 480px;
+    bottom: 220px;
+}
+
+
+.feat-user {
+    display: flex;
+
+}
+
+.feat-text h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.feat-user img{
+    margin-bottom: 20px;
+}
+
+.feat-user h4 {
+    color: #52647C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.feat-text h5{
+    color: #52647C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.feat-articles a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0D6EFD;
+    padding: 10px 50px;
+    margin-left: 450px;
+}

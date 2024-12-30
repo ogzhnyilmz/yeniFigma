@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.container {
+    width: 1440px;
+    margin-inline: auto;
+}
+
+.hero {
+    width: 1440px;
+    background-color: #FFC9BA;
+
+}
+
+.header-logo {
+    padding-left: 165px;
+}
+
+.header {
+    background-color: #FFC9BA;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+    align-items: center;
+    margin-bottom: 103px;
+}
+
+.icons {
+    margin-right: 165px;
+}
+
+.hero-bg {
+    margin-left: 600px;
+}
+
+.hero-text {
+    position: relative;
+    bottom: 350px;
+}
+
+.hero-text h2 {
+    margin-left: 165px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.hero-text p {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 32px;
+}
+
+.hero-text a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 165px;
+    margin-left: 165px;
+}
+
+.brands {
+    margin-top: 56px;
+}
+
+.brands h2 {
+    color: #807E7E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 24px;
+
+}
+
+.brands img {
+    margin-left: 165px;
+    margin-bottom: 120px;
+}
+
+.content {
+    margin-left: 165px;
+    margin-bottom: 128px;
+}
+
+.featured h2 {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 41px;
+}
+
+.products {
+    display: flex;
+    margin-left: 165px;
+    gap: 80px;
+}
+
+.product h3 {
+    color: #807E7E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    display: flex;
+    position: relative;
+    right: 165px;
+    margin-left: 165px;
+}
+
+.product h4 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.product p {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 128px;
+}
+
+.sofa img {
+    margin-left: 600px;
+}
+
+.sofa-text {
+    position: relative;
+    bottom: 350px;
+}
+
+.sofa-text h2 {
+    margin-left: 165px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.sofa-text p {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 32px;
+}
+
+.sofa-text a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 165px;
+    margin-left: 165px;
+}
+
+.products-h2 {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 41px;
+}
+
+.products img {
+    margin-bottom: 136px;
+}
+
+.latest-articles h2 {
+    margin-left: 165px;
+    color: #212121;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 41px;
+}
+
+.latest-articles a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    left: 1210px;
+    bottom: 70px;
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    gap: 24px;
+    margin-left: 165px;
+}
+
+.article img {
+    margin-bottom: 16px;
+}
+
+.article h3 {
+    color: #807E7E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.article h4 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 154px;
+}
